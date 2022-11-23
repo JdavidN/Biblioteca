@@ -16,13 +16,13 @@ public class Libro
     }
     
     //Contructor en parámetro
-    public Libro(String nL, String nA, String nAs, int aE, boolean tE)
+    public Libro(String nombreLibr, String nombreAtor, String nombresAutores, int anioEdicion, boolean tipoEdicion)
     {
-        this.nombreLibro = nL;
-        this.nombreAutor = nA;
-        this.nombreAutores = nAs;
-        this.anioEdicion = aE;
-        this.tipoEdicion = tE;
+        this.nombreLibro = nombreLibr;
+        this.nombreAutor = nombreAtor;
+        this.nombreAutores = nombresAutores;
+        this.anioEdicion = anioEdicion;
+        this.tipoEdicion = tipoEdicion;
     }
 
     //Métodos de acceso
